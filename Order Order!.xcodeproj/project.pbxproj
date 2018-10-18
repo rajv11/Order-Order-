@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3E27BC217801290079BB04 /* AddNewRestaurantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E27BB217801290079BB04 /* AddNewRestaurantVC.swift */; };
+		3F3E27BE217810430079BB04 /* AddNewMenuItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E27BD217810430079BB04 /* AddNewMenuItemVC.swift */; };
 		3FF9C81D2177C73900D4C649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C81C2177C73900D4C649 /* AppDelegate.swift */; };
-		3FF9C81F2177C73900D4C649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C81E2177C73900D4C649 /* ViewController.swift */; };
 		3FF9C8222177C73900D4C649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9C8202177C73900D4C649 /* Main.storyboard */; };
 		3FF9C8242177C73B00D4C649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9C8232177C73B00D4C649 /* Assets.xcassets */; };
 		3FF9C8272177C73B00D4C649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9C8252177C73B00D4C649 /* LaunchScreen.storyboard */; };
+		3FF9C82F2177C80A00D4C649 /* RestaurantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C82E2177C80A00D4C649 /* RestaurantTVC.swift */; };
+		3FF9C8312177C90100D4C649 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C8302177C90100D4C649 /* Restaurant.swift */; };
+		3FF9C8332177CA2100D4C649 /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C8322177CA2100D4C649 /* MenuItems.swift */; };
+		3FF9C8352177CAFB00D4C649 /* FoodCourt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C8342177CAFB00D4C649 /* FoodCourt.swift */; };
+		3FF9C8372177DDF000D4C649 /* MenuItemsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C8362177DDF000D4C649 /* MenuItemsTVC.swift */; };
+		3FF9C8392177F7FB00D4C649 /* MenuItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9C8382177F7FB00D4C649 /* MenuItemDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3E27BB217801290079BB04 /* AddNewRestaurantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRestaurantVC.swift; sourceTree = "<group>"; };
+		3F3E27BD217810430079BB04 /* AddNewMenuItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMenuItemVC.swift; sourceTree = "<group>"; };
 		3FF9C8192177C73900D4C649 /* Order Order!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Order Order!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF9C81C2177C73900D4C649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FF9C81E2177C73900D4C649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FF9C8212177C73900D4C649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FF9C8232177C73B00D4C649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FF9C8262177C73B00D4C649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FF9C8282177C73B00D4C649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF9C82E2177C80A00D4C649 /* RestaurantTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTVC.swift; sourceTree = "<group>"; };
+		3FF9C8302177C90100D4C649 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		3FF9C8322177CA2100D4C649 /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		3FF9C8342177CAFB00D4C649 /* FoodCourt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCourt.swift; sourceTree = "<group>"; };
+		3FF9C8362177DDF000D4C649 /* MenuItemsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsTVC.swift; sourceTree = "<group>"; };
+		3FF9C8382177F7FB00D4C649 /* MenuItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				3FF9C81C2177C73900D4C649 /* AppDelegate.swift */,
-				3FF9C81E2177C73900D4C649 /* ViewController.swift */,
 				3FF9C8202177C73900D4C649 /* Main.storyboard */,
+				3F3E27BB217801290079BB04 /* AddNewRestaurantVC.swift */,
+				3F3E27BD217810430079BB04 /* AddNewMenuItemVC.swift */,
+				3FF9C8382177F7FB00D4C649 /* MenuItemDetailsVC.swift */,
+				3FF9C8362177DDF000D4C649 /* MenuItemsTVC.swift */,
+				3FF9C8302177C90100D4C649 /* Restaurant.swift */,
+				3FF9C8342177CAFB00D4C649 /* FoodCourt.swift */,
+				3FF9C8322177CA2100D4C649 /* MenuItems.swift */,
+				3FF9C82E2177C80A00D4C649 /* RestaurantTVC.swift */,
 				3FF9C8232177C73B00D4C649 /* Assets.xcassets */,
 				3FF9C8252177C73B00D4C649 /* LaunchScreen.storyboard */,
 				3FF9C8282177C73B00D4C649 /* Info.plist */,
@@ -135,8 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF9C81F2177C73900D4C649 /* ViewController.swift in Sources */,
+				3F3E27BE217810430079BB04 /* AddNewMenuItemVC.swift in Sources */,
+				3F3E27BC217801290079BB04 /* AddNewRestaurantVC.swift in Sources */,
+				3FF9C82F2177C80A00D4C649 /* RestaurantTVC.swift in Sources */,
+				3FF9C8392177F7FB00D4C649 /* MenuItemDetailsVC.swift in Sources */,
+				3FF9C8372177DDF000D4C649 /* MenuItemsTVC.swift in Sources */,
+				3FF9C8332177CA2100D4C649 /* MenuItems.swift in Sources */,
 				3FF9C81D2177C73900D4C649 /* AppDelegate.swift in Sources */,
+				3FF9C8352177CAFB00D4C649 /* FoodCourt.swift in Sources */,
+				3FF9C8312177C90100D4C649 /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
