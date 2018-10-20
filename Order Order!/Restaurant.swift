@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Restaurant {
+struct Restaurant {
     var name:String
     var openingTime:Int
     var closingTime:Int

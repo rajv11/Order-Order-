@@ -26,7 +26,9 @@ class RestaurantTVC: UITableViewController {
         return FoodCourt.foodCourt.numberOfRestaurants()
     }
     
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        FoodCourt.foodCourt.setSelectedrestaurantIndex(indexPath.row)
+    }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "restaurantCell", for: indexPath)
         let nameLBL = cell.viewWithTag(100) as! UILabel
@@ -43,12 +45,12 @@ class RestaurantTVC: UITableViewController {
         
         return cell
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "menu" {
-            let  menuItemsTVC = segue.destination as! MenuItemsTVC
-            menuItemsTVC.restaurant = FoodCourt.foodCourt[tableView.indexPathForSelectedRow!.row]
-        }
-    }
+    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    //        if segue.identifier == "menu" {
+    //            let  menuItemsTVC = segue.destination as! MenuItemsTVC
+    //            menuItemsTVC.restaurant = FoodCourt.foodCourt[tableView.indexPathForSelectedRow!.row]
+    //        }
+    //    }
     @IBAction func addNewRestaurant(unwindSegue: UIStoryboardSegue) {
         
     }
