@@ -14,7 +14,7 @@ struct FoodCourt {
     let menuItems = [MenuItems(name: "pizza", cost: 30.5, calories: 67.9), MenuItems(name: "sandwich", cost: 32.5, calories: 45.9)]
     
     init() {
-        restaurants = [Restaurant(name: "Einstien Bros", openingTime: 5.9, closingTime: 6, menuItems:menuItems), Restaurant(name: "Planet Sub", openingTime: 5.9, closingTime: 6, menuItems: menuItems), Restaurant(name: "Subway", openingTime: 5.9, closingTime: 6, menuItems: menuItems), Restaurant(name: "Applebees", openingTime: 5.9, closingTime: 6, menuItems: menuItems)]
+        restaurants = [Restaurant(name: "Einstien Bros", openingTime: 10, closingTime: 7, menuItems:menuItems), Restaurant(name: "Planet Sub", openingTime: 2, closingTime: 6, menuItems: menuItems), Restaurant(name: "Subway", openingTime: 3, closingTime: 7, menuItems: menuItems), Restaurant(name: "Applebees", openingTime: 4, closingTime: 8, menuItems: menuItems)]
     }
     
     mutating func add(restaurant:Restaurant) {

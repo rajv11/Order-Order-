@@ -9,11 +9,11 @@
 import Foundation
 class Restaurant {
     var name:String
-    var openingTime:Double
-    var closingTime:Double
+    var openingTime:Int
+    var closingTime:Int
     var menuItems:[MenuItems]
     
-    init(name:String, openingTime:Double, closingTime:Double, menuItems:[MenuItems]) {
+    init(name:String, openingTime:Int, closingTime:Int, menuItems:[MenuItems]) {
         self.name = name
         self.openingTime = openingTime
         self.closingTime = closingTime

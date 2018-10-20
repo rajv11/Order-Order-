@@ -27,7 +27,7 @@ class AddNewRestaurantVC: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)  {
         if segue.identifier == "addNewRestaurant" {
-            if let name = nameTF.text, let openTime:Double = Double(openTimeTF.text!), let closeTime:Double = Double(closeTimeTF.text!) {
+            if let name = nameTF.text, let openTime:Int = Int(openTimeTF.text!), let closeTime:Int = Int(closeTimeTF.text!) {
                 
                 let restaurantToAdd = Restaurant(name: name, openingTime: openTime, closingTime: closeTime, menuItems: [])
                 
