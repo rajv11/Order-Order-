@@ -19,6 +19,4 @@ class Restaurant {
         self.closingTime = closingTime
         self.menuItems = menuItems
     }
-    
-    
 }

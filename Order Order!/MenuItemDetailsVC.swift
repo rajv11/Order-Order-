@@ -19,7 +19,7 @@ class MenuItemDetailsVC: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         self.navigationItem.title = menuItem.name
-        costLBL.text = "\(menuItem.cost)"
+        costLBL.text = "$\(menuItem.cost)"
         caloriesLBL.text = "\(menuItem.calories)"
     }
 

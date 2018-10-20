@@ -26,16 +26,16 @@ class AddNewRestaurantVC: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)  {
-        
-        if let name = nameTF.text, let openTime:Double = Double(openTimeTF.text!), let closeTime:Double = Double(closeTimeTF.text!) {
-            if segue.identifier == "addNewRestaurant" {
+        if segue.identifier == "addNewRestaurant" {
+            if let name = nameTF.text, let openTime:Double = Double(openTimeTF.text!), let closeTime:Double = Double(closeTimeTF.text!) {
+                
                 let restaurantToAdd = Restaurant(name: name, openingTime: openTime, closingTime: closeTime, menuItems: [])
                 
                 FoodCourt.foodCourt.add(restaurant: restaurantToAdd)
                 print(FoodCourt.foodCourt.numberOfRestaurants())
+            } else {
+                display(title: "Oops", msg: "Please Enter Valid Restaurant Details")
             }
-        } else {
-            display(title: "Oops", msg: "Please Enter Valid Restaurant Details")
         }
         
     }
